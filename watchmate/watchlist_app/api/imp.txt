@@ -1,0 +1,15 @@
+1> What is nested serializer and where it is used how to use it
+2> what is StringRelatedField and where it is used how to use it
+3> what is PrimaryKeyRelatedField and where it is used how to use it
+4> What is HyperlinkedRelatedField and where it is used and how to use it
+5> what is HyperlinkedModelSerializer and where it is used 
+6> diff b/w normal serializer and model serializer
+
+
+
+7> What is apiview
+8> what is mixin
+9> What is generic api view
+10> What is  concreate view
+11> What is viewset
+12> What is modelviewset
