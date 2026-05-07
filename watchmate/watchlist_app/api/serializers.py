@@ -7,6 +7,7 @@ class ProductSeriliazer(serializers.ModelSerializer):
         fields="__all__"
         
 class DogSeriliazer(serializers.Serializer):
+    #dogggg
     class Meta:
         model=DogCategory
         fields="__all__"        
