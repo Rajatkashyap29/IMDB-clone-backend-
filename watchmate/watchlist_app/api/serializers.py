@@ -7,7 +7,7 @@ class ProductSeriliazer(serializers.ModelSerializer):
         fields="__all__"
         
 class DogSeriliazer(serializers.Serializer):
-    #dogggg
+    
     class Meta:
         model=DogCategory
         fields="__all__"        
@@ -82,11 +82,11 @@ class  StreamPlateformSerializers(serializers.ModelSerializer):
 
     
     
-# #obj level validatiion
-#     def validate(self,value):
-#         if value['name']==value['description']:
-#             raise serializers.ValidationError("name and descripton should not same")
-#         else:
-#             return value   
+#obj level validatiion
+    def validate(self,value):
+        if value['name']==value['description']:
+            raise serializers.ValidationError("name and descripton should not same")
+        else:
+            return value   
         
              
