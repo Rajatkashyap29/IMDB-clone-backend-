@@ -82,7 +82,7 @@ class  StreamPlateformSerializers(serializers.ModelSerializer):
 
     
     
-#obj level validatiion
+#object level validations
     def validate(self,value):
         if value['name']==value['description']:
             raise serializers.ValidationError("name and descripton should not same")
