@@ -87,6 +87,7 @@ class  StreamPlateformSerializers(serializers.ModelSerializer):
         if value['name']==value['description']:
             raise serializers.ValidationError("name and descripton should not same")
         else:
-            return value   
+            return value  
+        #return value  
         
              
